@@ -1,0 +1,414 @@
+.nr--signIN--main {
+    padding: 40px 40px 40px 150px;
+    display: flex;
+    justify-content: center;
+  }
+  .nr--signIn--right {
+    background: #f6f8f7;
+    padding: 50px;
+    border-radius: 30px;
+  }
+  
+  .nr--signIn--right--logo {
+    width: 34.488px;
+    height: 34.489px;
+    margin: 0 auto;
+  }
+  .nr--signIn--right--logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .nr--sign--in--text--inputs {
+    margin-top: 30px;
+  }
+  .nr--signIn--right--texts h3 {
+    color: #121715;
+    font-family: Satoshi;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+    text-transform: capitalize;
+  }
+  .nr--signIn--right--texts p {
+    color: #121715;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+  }
+  .nr--signIn--right--inputs {
+    margin-top: 30px;
+  }
+  .nr--signIn--right--inputs--email {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .nr--signIn--right--inputs--email label {
+    margin-bottom: 10px;
+    color: #121715;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.3px;
+  }
+  .nr--signIn--right--inputs--email input {
+    width: 404px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: solid #e8e8e8;
+  }
+  .nr--signIn--right--checkbox {
+    margin-top: 5px;
+    display: flex;
+    column-gap: 124px;
+    align-items: center;
+  }
+  .nr--signIn--right--checkbox--rmember label {
+    color: var(--Text-Color-Text-1, #1b212d);
+    font-family: Satoshi;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .nr--signIn--right--checkbox a {
+    color: var(--Text-Color-Text-1, #1b212d);
+    text-align: right;
+    font-family: Satoshi;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .nr--sign--in--btn {
+    width: 404px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+  .nr--sign--in--btn button {
+    padding: 20px;
+    border-radius: 14px;
+    border: 1px solid #01763f;
+    background: #01763f;
+    color: #fff;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.3px;
+    width: 100%;
+  }
+  
+  .nr--log--in--google--dont {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    align-items: center;
+    position: relative;
+  }
+  .nr--log--in--frame {
+    position: absolute;
+    bottom: -26px;
+    right: 64px;
+  }
+  .nr--log--with--google--svg {
+    width: 24px;
+    height: 24px;
+  }
+  .nr--log--with--google {
+    padding: 13px 95px;
+    color: #4d514f;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.3px;
+    border-radius: 10px;
+    border: 1px solid var(--Gray-Gray-3, #f5f5f5);
+    width: 400px;
+  }
+  .nr--dont--ac {
+    color: #595d5b;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .nr--dont--ac span {
+    color: #121715;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .nr--log--with--google--svg svg {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+  .nr--signIn--right--texts{
+    text-align: center;
+  }
+  
+  /* sign in:: signup done */
+  
+  /*  forget password :: start hare */
+  .nr--forgetPassword--wrapper {
+    padding-top: 110px;
+    position: relative;
+  }
+  
+  .nr--forget--password--main {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f8f7;
+    width: 550px;
+    margin: 0 auto;
+    border-radius: 30px;
+  }
+  .nr--forget--password--logo {
+    display: flex;
+    justify-content: center;
+  }
+  .nr--forget--password--text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 12px;
+    margin-top: 30px;
+  }
+  .nr--forget--password--text h2 {
+    color: #121715;
+    font-family: Satoshi;
+    font-size: 32px;
+    font-weight: 500;
+  }
+  .nr--forget--password--text p {
+    color: #5d5d5d;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 436px;
+  }
+  .nr--forget--password--email {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .nr--forget--password--email input {
+    width: 450px;
+    height: 47px;
+    border-radius: 10px;
+    border: 1px solid var(--Egyptian-White, #e6f1ec);
+    padding-right: 14px;
+    padding: 0px 21px;
+    border-radius: 10px;
+  }
+  .nr--forget--password--email label {
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+  }
+  
+  .nr--forget--password--btn {
+    margin-top: 30px;
+    width: 450px;
+  }
+  .nr--forget--password--btn a {
+    padding: 14px 190px;
+    background-color: #9fada6;
+    border: 1px solid transparent;
+    width: 100%;
+    border-radius: 16px;
+    pointer-events: none;
+  }
+  .nr--forget--password--back {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 14px;
+    position: absolute;
+    left: 32px;
+    top: 28px;
+    cursor: pointer;
+  }
+  .nr--forget--password--back--svg {
+    height: 24px;
+    width: 24px;
+  }
+  .nr--forget--password--back--svg svg {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .nr--EroorText {
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: red;
+  }
+  /* forget password :: end hare */
+  
+  .nr--counter {
+    margin-top: 25px;
+  }
+  .nr--counter h3 {
+    color: #595d5b;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .nr--counter h3 span {
+    color: #121715;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  
+  
+  .otp-input-fields {
+    margin: auto;
+    max-width: 400px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 40px;
+  }
+  
+  .otp-input-fields input {
+    width: 84px;
+    height: 76px;
+    border-radius: 16px;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #ced5d2;
+    text-align: center;
+    outline: none;
+    font-size: 36px;
+  }
+  
+  .otp-input-fields input::-webkit-outer-spin-button,
+  .otp-input-fields input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  .otp-input-fields input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
+  .otp-input-fields input:focus {
+    border-width: 2px;
+    border-color: #2f8f1f; 
+    font-size: 36px;
+  }
+  
+  /* step css */
+  .nr--step--wrapper--one {
+    display: block;
+  }
+  .nr--step--wrapper--two {
+    display: none;
+  }
+  .nr--step--wrapper--three {
+    display: none;
+  }
+  
+  .nr--forget--password--btn button {
+    cursor: pointer;
+    border-radius: 14px;
+    border: 1px solid #01763f;
+    background: #01763f;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.3px;
+    width: 450px;
+    color: #fff;
+    padding: 12px 0;
+  }
+  .nr--forget--password--btn button:disabled {
+    background: #9fada6;
+    color: #f2f4f7;
+    border: #9fada6;
+  }
+  
+  .nr--sucess--svg {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  .nr--sucess--svg svg {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .nr--sucess--text h3 {
+    color: #121715;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+    text-transform: capitalize;
+  }
+  .nr--sucess--text p {
+    color: #121715;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+  }
+  
+  .modal-body {
+    padding: 60px 0;
+  }
+  .nr--forget--sucess--btn {
+    margin-top: 30px;
+  }
+  
+  .nr--continue--btn--3 {
+    padding: 14px 190px;
+    border: 1px solid #01763f;
+    background: #01763f;
+    width: 70%;
+    border-radius: 16px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+  }
+  
+  .modal-header {
+    display: flex;
+    padding: var(--bs-modal-header-padding);
+    border-bottom: 0;
+  }
+  

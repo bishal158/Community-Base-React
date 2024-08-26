@@ -1,0 +1,702 @@
+
+/* index html :: strat hare */
+.nr--index--background{
+    position: relative;
+    padding-top: 63px;
+  }
+  
+  .nr--index--right{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nr--index--left{
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .nr--banner--wrapper{
+    padding: 0px 0 150px 0;
+  }
+  .nr--banner--wrapper--main {
+    border-radius: 40px;
+    position: relative;
+    padding-top: 120px;
+  }
+  .nr--banner--wrapper--main::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.07;
+    background: linear-gradient(180deg, rgb(1, 118, 63) 0%, rgba(1, 118, 63, 0.00) 100%);
+    z-index: -1;
+    border-radius: 40px;
+  }
+  
+  .nr--banner--header--logo{
+    width: 60px;
+    height: 60px;
+  }
+  .nr--banner--header--logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .nr--banner--header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nr--banner--header a {
+    display: flex;
+    align-items: flex-end;
+    column-gap: 19px;
+  }
+  .nr--banner--header a h4{
+    color: #000;
+    font-family: Satoshi;
+    font-size: 35.625px;
+    font-weight: 300;
+    letter-spacing: -0.534px;
+    text-transform: capitalize;
+  }
+  .nr--banner--header a span{
+    color: #000;
+    font-family: Satoshi;
+    font-size: 35.625px;
+    font-weight: 700;
+    letter-spacing: -0.534px;
+    text-transform: capitalize;
+  }
+  
+  .nr--banner--heading h2{
+    color: #121715;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 62.454px; 
+    letter-spacing: -1.8px;
+    width: 946px;
+    margin: 0 auto;
+    padding-top: 55px;
+    padding-bottom: 50px;
+  }
+  
+  .nr--banner--video{
+    width: 992px;
+    height: 446px;
+    margin: 0 auto;
+    border-radius: 35px;
+    background: #D7E0DC;
+    position: relative;
+  }
+  .nr--banner--video img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 35px;
+  }
+  .nr--banner--video iframe{
+    height: 100%;
+    width: 100%;
+  }
+  .nr--banner--video--icon-svg{
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .nr--banner--video--icon-svg svg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .nr--banner--lower--text--and--btn{
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .nr--banner--lower--text--and--btn p{
+    color: #121715;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -0.4px;
+    width: 946px;
+    margin: 0 auto;
+  }
+  .nr--banner--lower--text--and--btn a{
+    padding: 20px 0;
+    width: 433px;
+    border-radius: 18px;
+    background: #01763F;
+    color: #FFF;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: -0.6px;
+    text-transform: capitalize;
+  }
+  .nr--videos{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+
+  }
+ .xmark{
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  
+ }
+ .nr--videos iframe{
+  width: min(900px, 90%);
+  height: min(600px, 90%);
+  margin: 0 auto;
+ }
+  /* banner :: end hare */
+  
+  
+  /* who we are :: start hare */
+  .nr--who--we--are--wrapper{
+    padding-bottom: 180px;
+  }
+  .nr--who--we--are--main {
+    background: url('../../assets/images/whoWeAreBanner.png') no-repeat;
+    background-size: cover;
+    padding: 220px 102px;
+    border-radius: 30px;
+    position: relative;
+  }
+  .nr--who--we--are--content {
+    padding: 50px;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 24px 212px 0px rgba(46, 86, 66, 0.12);
+    width: 996px;
+    position: absolute;
+    top: 282px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .nr--who--we--are--content h3{
+    color: #161C2D;
+    font-family: Satoshi;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58px; 
+    letter-spacing: -1.8px;
+    margin-bottom: 20px;
+  }
+  .nr--who--we--are--content p{
+    width: 896px;
+    color: #121715;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.4px;
+    margin-bottom: 25px;
+  }
+  .nr--who--we--are--content a{
+    color: #01763F;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.4px;
+  }
+  /* who we are :: end hare */
+  
+  
+  /* community :: start hare */
+  .nr--community--wrapper{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    padding-bottom: 138px;
+  }
+  .nr--community--background--text h4{
+    font-size: 200px;
+    font-weight: 700;
+    line-height: 241.748px; 
+    letter-spacing: -7.503px;
+    opacity: 0.09;
+    background: linear-gradient(180deg, #01763F 0%, rgba(1, 118, 63, 0.00) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nr--banner--header {
+    position: relative;
+    top: -78px;
+  }
+  .nr--community--main--teext h4{
+    color: #121715;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.4px;
+    width: 1044px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .nr--community--main--teext h4 span{
+    color: #01763F;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.4px;
+  }
+  .nr--community--main--teext h4 .second--span{
+    color: #121715;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.4px;
+  }
+  .nr--community--main--teext--2nd{
+    margin-top: 30px;
+  }
+  .nr--community--main--teext--2nd h5{
+    color: #121715;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.4px;
+    width: 1044px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .nr--community--main--teext--2nd h5 span{
+    color: #121715;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.4px;
+  }
+  /* community :: end hare */
+  
+  /* service :: start hare */
+  .nr--service--main{
+    padding: 72px 102px;
+    border-radius: 40px;
+    background: rgba(1, 118, 63, 0.05);
+  }
+  .nr--service--heading{
+    display: flex;
+    justify-content: center;
+  }
+  .nr--service--heading a{
+    padding: 10px 30px;
+    color: #01763F;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1px;
+    border-radius: 40px;
+    border: 1px solid #01763F;
+    background: rgba(1, 118, 63, 0.10);
+    transition: all linear 0.3s;
+  }
+  .nr--service--heading a:hover{
+    background-color: #01763F;
+    color: #fff;
+  }
+  .nr--service--heading--text h3{
+    color: #161C2D;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: -1.8px;
+    margin-top: 12px;
+    margin-bottom: 14px;
+  }
+  .nr--service--heading--text p{
+    color: #121715;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -0.4px;
+    width: 751px;
+    margin: 0 auto;
+  }
+  
+  .nr--service--main--wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+    gap: 24px;
+  }
+  .nr--service--main--item {
+    padding: 50px 60px;
+    border-radius: 30px;
+    background: #FFF;
+    box-shadow: 0px 4px 72px 0px rgba(175, 212, 194, 0.18);
+  }
+  .nr--service--main--svg{
+    width: 55px;
+    height: 55px;
+  }
+  .nr--service--main--svg svg{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .nr--service--main--item h4{
+    color: #161C2D;
+    font-family: Satoshi;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -1.8px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+  }
+  .nr--service--main--item p {
+    color: #121715;
+    font-family: "Plus Jakarta Sans";
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: -0.4px;
+  }
+  /* service :: end hare */
+  
+  
+  /* whyUs :: strat hare */
+  .nr--whyUs--wrapper{
+    padding: 150px 0;
+  }
+  .nr--whyUs--main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 14px;
+    margin-top: 50px;
+  }
+  .nr--whyUs--item {
+    padding: 35px 55px;
+    border-radius: 20px;
+    border: 1px solid rgba(1, 118, 63, 0.14);
+    background: #FFF;
+    box-shadow: 0px 4px 72px 0px rgba(109, 176, 143, 0.18);
+    width: 637px;
+    margin: 0 auto;
+    display: flex;
+    column-gap: 22px;
+    align-items: center;
+  }
+  .nr--whyUs--svg{
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+    min-height: 50px;
+  }
+  .nr--whyUs--svg svg{
+    height: 100%;
+    width: 100%;
+  }
+  .nr--whyUs--texts h5{
+    color: #121715;
+    font-family: Satoshi;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: -0.48px;
+  }
+  .nr--whyUs--texts span{
+    color: #121715;
+    font-family: Satoshi;
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.48px;
+  }
+  /* whyUs :: end hare */
+  
+  
+  /* testimonials :: start hare */
+  .nr--testimonials--wrapper {
+    padding-bottom: 1061px;
+  }
+  .nr--testimonials--main{
+    position: relative;
+  }
+  .nr--testimonials--inner{
+    padding: 72px 0 261px 0;
+    border-radius: 40px;
+    background: #01763F;
+  }
+  .nr--testimonials--header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .nr--testimonials--heading{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+  }
+  .nr--testimonials--heading a{
+    padding: 10px 30px;
+    color: #fff;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1px;
+    border-radius: 40px;
+    border: 1px solid #FFF;
+    background: rgba(1, 118, 63, 0.10);
+    transition: all linear 0.3s;
+  }
+  .nr--testimonials--heading a:hover{
+    background-color: #fff;
+    color: #01763F;
+  }
+  
+  .nr--testimonials--heading--text h3{
+    color: #fff;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: -1.8px;
+    margin-top: 12px;
+    margin-bottom: 14px;
+  }
+  .nr--testimonials--heading--text p{
+    color: #fff;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: -0.4px;
+    width: 751px;
+    margin: 0 auto;
+  }
+  
+  .nr--testimonials--item--main {
+    width: 996px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin: 0 auto;
+    position: absolute;
+    top: 345px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .nr--testimonials--item{
+    padding: 50px 39px;
+    position: relative;
+    border-radius: 30px;
+    background: #F2F8F5;
+    overflow: hidden;
+  }
+  .nr--testItem--frameOne{
+    width: 39px;
+    height: 28px;
+  }
+  .nr--testItem--frameOne svg{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .nr--testItem--text p{
+    color: #121715;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.4px;
+    margin: 24px 0 32px 0;
+  }
+  .nr--testItem--profile{
+    display: flex;
+    column-gap: 12px;
+  }
+  .nr--testItem--profile--photo{
+    height: 54px;
+    width: 54px;
+    border-radius: 50%;
+    border: 2px solid #121715;
+  }
+  .nr--testItem--profile--photo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .nr--testItem--profile h3{
+    color: #121715;
+    font-family: Satoshi;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px; 
+    letter-spacing: -0.4px;
+  }
+  .nr--testItem--profile p{
+    color: #121715;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: -0.36px;
+  }
+  .nr--testItem--frame{
+    width: 207px;
+    height: 206px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+  .nr--testItem--frame img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  /* testomonial :: end hare */
+  
+  
+  /* footer :: strat hare */
+  .footer--wrapper {
+    padding: 113px 0;
+  }
+  .nr--footer--texts{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 56px;
+    border-bottom: 1px solid rgba(118, 78, 1, 0.20);
+  }
+  .nr--footer--logo--text {
+    display: flex;
+    column-gap: 13px;
+    align-items: end;
+    justify-content: center;
+    margin-bottom: 24px;
+  }
+  .nr--footer--logo--text h4{
+    color: #000;
+    font-family: Satoshi;
+    font-size: 23.75px;
+    font-weight: 300;
+    letter-spacing: -0.356px;
+    text-transform: capitalize;
+  }
+  .nr--footer--logo--text span{
+    color: #000;
+    font-family: Satoshi;
+    font-size: 23.75px;
+    font-weight: 700;
+    letter-spacing: -0.356px;
+    text-transform: capitalize;
+  }
+  .nr--footer--logo{
+    width: 40px;
+    height: 40px;
+  }
+  .nr--footer--logo img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .nr--footer--texts p{
+    color: #121715;
+    text-align: center;
+    font-variant-numeric: stacked-fractions;
+    font-feature-settings: 'cv09' on, 'cv04' on, 'ss01' on, 'cv03' on, 'ss03' on, 'cv06' on;
+    font-family: Satoshi;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px; 
+    letter-spacing: -0.18px;
+    width: 586px;
+    margin: 0 auto;
+  }
+  
+  .nr--footer--logos{
+    display: flex;
+    justify-content: center;
+    column-gap: 16px;
+    margin-top: 56px;
+  }
+  .nr--footer--icon{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background: #01763F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all linear 0.3s;
+  }
+  .nr--footer--icon--facebook{
+    height: 24px;
+    width: 24px;
+  }
+  .nr--footer--icon--facebook svg{
+    height: 100%;
+    width: 100%;
+  }
+  .nr--footer--icon:hover{
+    background-color: transparent;
+    border: 1px solid #01763F;
+  }
+  .nr--footer--icon:hover svg path{
+    fill: #01763F;
+  }
+
+
+
+  /* footer :: end hare */
+  
+  
